@@ -1,0 +1,24 @@
+# Thư mục phụ thuộc (Dependencies)
+node_modules/
+
+# Biến môi trường bảo mật (MongoDB URI, JWT Secret, Cloudinary API Key)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Thư mục upload ảnh/file tạm thời (nếu có lưu local)
+uploads/
+temp/
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
